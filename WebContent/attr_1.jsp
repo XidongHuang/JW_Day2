@@ -40,5 +40,9 @@
 	<br><br>
 	<a href="testAttr">To Attr Servlet</a>
 
+	<%
+		request.getRequestDispatcher("/attr_2.jsp").forward(request,response);
+	%>
+
 </body>
 </html>

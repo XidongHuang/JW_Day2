@@ -9,7 +9,8 @@
 </head>
 <body>
 
-	<%= new Date() %>
+	<h2>Attr 222 Page:<%= new Date() %> </h2>
+	
 	<br><br>
 	pageContextAttr:<%= pageContext.getAttribute("pageContextAttr") %>
 	
